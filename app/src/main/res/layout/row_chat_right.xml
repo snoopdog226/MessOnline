@@ -16,7 +16,7 @@
             android:id="@+id/profile_chat_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/bg_main"
             android:visibility="gone"
             app:c_background_color="@null" />
         <TextView

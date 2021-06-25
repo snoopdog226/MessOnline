@@ -98,6 +98,7 @@ public class RegisterActivity extends AppCompatActivity {
                             String email = user.getEmail();
                             String uid   = user.getUid();
 
+                            //Doi tuong luu gia tri theo cap theo key/value va truy cap theo key, khong theo tu tu nhu Arraylist
                             HashMap<Object, String> hashMap = new HashMap<>();
                             hashMap.put("email",email);
                             hashMap.put("uid",uid);

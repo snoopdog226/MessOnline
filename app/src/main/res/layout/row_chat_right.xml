@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/messageLayout"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/profile_chat_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:visibility="gone"
+            app:c_background_color="@null" />
+        <TextView
+            android:id="@+id/time_chat_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26/04/2021 4:32 AM"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/message_chat_left"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_sender"
+            android:padding="15dp"
+            android:text="His message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/isSeenTv_chat_left"
+        android:layout_gravity="end"
+        android:visibility="gone"
+        android:textAlignment="textEnd"
+        android:text="delivered"
+
+        />
+</LinearLayout>

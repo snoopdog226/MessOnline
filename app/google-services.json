@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051826919696",
+    "project_id": "messonline-d2b8d",
+    "storage_bucket": "messonline-d2b8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051826919696:android:ae3604cc5a751513066d95",
+        "android_client_info": {
+          "package_name": "com.example.messonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051826919696-dgba2u8cb6sq9sqhmn15l5jfnju1fu7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCllpgrB_1krwhuIjk368fVPRFAATH1qxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051826919696-dgba2u8cb6sq9sqhmn15l5jfnju1fu7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

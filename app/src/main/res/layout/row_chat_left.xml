@@ -16,7 +16,7 @@
             android:layout_height="50dp"
             android:id="@+id/profile_chat_left"
             app:c_background_color="@null"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/bg_main"
             />
         <TextView
             android:id="@+id/message_chat_left"
